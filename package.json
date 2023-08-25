@@ -1,0 +1,25 @@
+{
+  "name": "my-first-package-beyza",
+  "version": "1.0.0",
+  "description": "This is a trial package.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "beyza": "echo 'Type npm run beyza'",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "first-package"
+  ],
+  "author": "beyza erdogan",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.4.4",
+    "nodemailer": "^6.9.4",
+    "simple-is": "^0.2.0"
+  },
+  "repository": {
+    "type":"git",
+    "url": "https://github.com/berdogan20/Trial.git"
+  }
+}
